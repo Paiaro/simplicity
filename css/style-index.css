@@ -12,19 +12,18 @@ h1 a {
 }
 
 .menu {
-    overflow: hidden;
+  
     background-color: #333;
-    position: fixed;
+    position:absolute;
     top: 0;
     right: 0;
-    width: 150px;
 }
 
 .menu a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 6px;
     text-decoration: none;
 }
 
