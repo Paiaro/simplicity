@@ -16,11 +16,10 @@ html{
 }
 
 h1 a {
-    background-color: black;
-    text-decoration: none;
+    background-color:var(--cor-escura);
     border-radius: 8px;
     padding: 0.8%;
-    color: white;
+    color:var(--cor-clara);
     font-family: raleway, sans-serif;
     text-transform: uppercase;
     font-weight: 800;
