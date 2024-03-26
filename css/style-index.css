@@ -25,6 +25,9 @@ h1 a {
     font-weight: 800;
     font-size: 1.5rem;
 }
+a{
+  text-decoration: none;
+}
 body{
   color: var(--cor-texto);
   font-family: "Noto Sans", sans-serif;
@@ -40,9 +43,7 @@ body,h1,h2,p,figure,nav ul{
 img{ max-width: 100%;
 
 }
-a{
-  text-decoration: none;
-}
+
 
 #menu{
     position: absolute;
