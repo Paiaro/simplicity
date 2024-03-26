@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     box-sizing: border-box;
+}
+
+:root{
+  --cor-titulo: #4d4d4d;
+  --cor-texto: #333;
+  --cor-escura:#000;
+  --cor-clara:#fff;
+  --cor-internediaria: #ececec;
 }
 
 h1 a {
@@ -9,6 +18,10 @@ h1 a {
     padding: 1.5%;
     color: white;
     text-transform: uppercase;
+    
+}
+h1{
+  font-family: raleway;
 }
 #menu{
     position: absolute;
