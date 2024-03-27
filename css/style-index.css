@@ -84,6 +84,7 @@ nav h2 a:focus,
 /* estilos da lista dentro do nav */
 .lista-menu {
   list-style: none;
+  /* js futuramente sera implementado*/
   display: none;
 }
 
@@ -96,4 +97,8 @@ nav h2 a:focus,
   /* background-color: aquamarine; */
   justify-content: center;
   align-items: center;
+}
+/* regra que sera aplicada somente quando o menu for acionado para aberto */
+.lista-menu.aberto{
+  
 }
