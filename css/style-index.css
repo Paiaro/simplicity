@@ -142,13 +142,13 @@ nav h2 a:focus,
   text-align: center;
   
 }
-/* sobre a função clump() função util para redimensionamento responsivo de acordo com certos critérios
+/* sobre a função clamp() função util para redimensionamento responsivo de acordo com certos critérios
 
-clump(tamanhoMinimo,tamanhoIdeal/variavel,tamanhoMaximo);
+clamp(tamanhoMinimo,tamanhoIdeal/variavel,tamanhoMaximo);
 */
 .destaque h2{
-  font-size: clamp();
+  font-size: clamp(3rem,10vw,7rem);
 }
 .destaque p{
-
+font-size: clamp(1rem,2vw,5rem);
 }
