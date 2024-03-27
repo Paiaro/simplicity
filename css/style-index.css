@@ -98,13 +98,14 @@ nav h2 a:focus,
   justify-content: center;
   align-items: center;
 }
+
 /* regra que sera aplicada somente quando o menu for acionado para aberto */
-.lista-menu.aberto{
+.lista-menu.aberto {
   /* ativando o flex fazemos com que os links voltem a aparecer. */
   display: flex;
   /* fazemos com que eles fiquem um em cima do outro (flex colum) */
 
-  
+
   /* ativamos position absolute e ajustamos a posição final dos links usando proriedades de coordenadas. */
   flex-direction: column;
   position: absolute;
