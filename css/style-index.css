@@ -1,58 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-:root{
+:root {
   --cor-titulo: #4d4d4d;
   --cor-texto: #333;
-  --cor-escura:#000;
-  --cor-clara:#fff;
+  --cor-escura: #000;
+  --cor-clara: #fff;
   --cor-internediaria: #ececec;
 }
+
 /* lembrete da medida "font-size" */
-html{
+html {
   font-size: 16px;
 }
 
 h1 a {
-    background-color:var(--cor-escura);
-    border-radius: 4px;
-    padding: 0.3rem 1rem;
-    color:var(--cor-clara);
-    font-family: raleway, sans-serif;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 1.5rem;
+  background-color: var(--cor-escura);
+  border-radius: 4px;
+  padding: 0.3rem 1rem;
+  color: var(--cor-clara);
+  font-family: raleway, sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 1.5rem;
 }
-a{
+
+a {
   text-decoration: none;
-  
+
 }
-header{
+
+header {
 
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 0.5rem;
 }
-body{
+
+body {
   color: var(--cor-texto);
   font-family: "Noto Sans", sans-serif;
   background-color: var(--cor-clara);
 }
-body,h1,h2,p,figure,nav ul{
 
-  margin:0;
-  padding:0;
-  
+body,
+h1,
+h2,
+p,
+figure,
+nav ul {
+
+  margin: 0;
+  padding: 0;
+
 }
+
 /* imagens responsiva */
-img{ max-width: 100%;
+img {
+  max-width: 100%;
 
 }
 
-nav h2 a{
+nav h2 a {
 
   color: var(--cor-escura);
   font-size: 1.2rem;
@@ -60,17 +73,23 @@ nav h2 a{
   padding: 1rem;
   display: inline-block;
 }
-nav h2 a:hover, nav h2 a:focus{
+
+nav h2 a:hover,
+nav h2 a:focus, .lista-menu a:hover {
   background-color: var(--cor-internediaria);
-  
+
 }
-
-
-
-  
-
-  
-  
-  
- 
-  
+/* estilos da lista dentro do nav */
+.lista-menu {
+  list-style: none;
+}
+/* estilo para os links dentro do nav */
+.lista-menu a {
+color: var(--cor-escura);
+font-weight: bold;
+display: flex;
+height: 50px;
+/* background-color: aquamarine; */
+justify-content: center;
+align-items: center;
+}
