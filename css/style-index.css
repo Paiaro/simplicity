@@ -75,21 +75,25 @@ nav h2 a {
 }
 
 nav h2 a:hover,
-nav h2 a:focus, .lista-menu a:hover {
+nav h2 a:focus,
+.lista-menu a:hover {
   background-color: var(--cor-internediaria);
 
 }
+
 /* estilos da lista dentro do nav */
 .lista-menu {
   list-style: none;
+  display: none;
 }
+
 /* estilo para os links dentro do nav */
 .lista-menu a {
-color: var(--cor-escura);
-font-weight: bold;
-display: flex;
-height: 50px;
-/* background-color: aquamarine; */
-justify-content: center;
-align-items: center;
+  color: var(--cor-escura);
+  font-weight: bold;
+  display: flex;
+  height: 50px;
+  /* background-color: aquamarine; */
+  justify-content: center;
+  align-items: center;
 }
