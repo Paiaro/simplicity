@@ -145,6 +145,8 @@ nav h2 a:focus,
 
   animation-name: animadestaque;
   animation-duration: 1s;
+  /* aceleração/desaceleração */
+  animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 /* sobre a função clamp() função util para redimensionamento responsivo de acordo com certos critérios
 
@@ -162,7 +164,8 @@ font-size: clamp(1.5rem,3vw,3rem);
   /* from (estado inicial) */
   from{
 opacity:0;
-transform: translateY(-500px);
+transform: translateY(-350px);
+
   }
   /* to (estado final) */
   to{
