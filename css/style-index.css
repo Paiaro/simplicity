@@ -133,7 +133,7 @@ nav h2 a:focus,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*O valor cover define especificamente a imagem para cobrir todo o elemento ao qual é aplicado.*/
+  /*O cover define especificamente a imagem para cobrir todo o elemento ao qual é aplicado.*/
   background-size: cover;
 }
 .destaque h2 {
