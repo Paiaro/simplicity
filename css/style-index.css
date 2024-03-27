@@ -152,3 +152,17 @@ clamp(tamanhoMinimo,tamanhoIdeal/variavel,tamanhoMaximo);
 .destaque p{
 font-size: clamp(1.5rem,3vw,3rem);
 }
+
+/* regras de animações */
+@keyframes animadestaque{
+  /* from (estado inicial) */
+  from{
+opacity:0;
+transform: translateY(-100px);
+  }
+  /* to (estado final) */
+  to{
+opacity: 1;
+
+  } 
+}
