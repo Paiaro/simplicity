@@ -141,6 +141,10 @@ nav h2 a:focus,
   color: var(--cor-clara);
   text-align: center;
   
+  /* aplicando a animação */
+
+  animation-name: animadestaque;
+  animation-duration: 1s;
 }
 /* sobre a função clamp() função util para redimensionamento responsivo de acordo com certos critérios
 
@@ -158,7 +162,7 @@ font-size: clamp(1.5rem,3vw,3rem);
   /* from (estado inicial) */
   from{
 opacity:0;
-transform: translateY(-100px);
+transform: translateY(-500px);
   }
   /* to (estado final) */
   to{
