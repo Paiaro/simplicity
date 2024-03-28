@@ -256,3 +256,15 @@ footer {
   width: 95vw;
   margin: 0 auto;
 }
+
+
+
+/* regras para produtos, serviços e contato */
+
+
+.conteudo{
+  background-color: var(--cor-internediaria);
+  padding: 0.5rem;
+  border-radius: 8px;
+  
+}
