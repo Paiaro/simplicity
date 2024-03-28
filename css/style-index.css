@@ -217,6 +217,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: 1rem;
 }
 
 .historia {
@@ -241,14 +242,13 @@ footer {
 
 .historia iframe {
   max-width: 700px;
+  min-width: 300px;
   width: 100%;
   margin-bottom: 2rem;
   background-size: cover;
-  
 }
 
 .localizacao iframe {
-  max-width: 700px;
   width: 100%;
   margin-top: 2rem;
 }
