@@ -310,3 +310,6 @@ color: var(--cor-texto);
 tr:nth-child(odd){
     background-color: var(--cor-clara);
 }
+tr{
+  text-align: center;
+}
