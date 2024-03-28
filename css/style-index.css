@@ -251,6 +251,7 @@ footer {
   width: 100%;
   margin-top: 2rem;
 }
+
 /* criando um espaço para nao ficar grudado no canto da pagina */
 .limitador {
   width: 95vw;
@@ -262,9 +263,17 @@ footer {
 /* regras para produtos, serviços e contato */
 
 
-.conteudo{
+.conteudo {
   background-color: var(--cor-internediaria);
   padding: 0.5rem;
   border-radius: 8px;
-  
+
+}
+
+.conteudo h2 {
+  color: --cor-escura;
+  font-size: 2rem;
+  padding-left: 0;
+  border-bottom: solid 1px;
+  margin-bottom: 1rem;
 }
