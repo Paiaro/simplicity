@@ -217,7 +217,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 0.2rem;
 }
 
 .historia {
@@ -252,7 +252,7 @@ footer {
   width: 100%;
   margin-top: 2rem;
 }
-
+/* criando um espaço para nao ficar grudado no canto da pagina */
 .limitador {
   width: 95vw;
   margin: 0 auto;
