@@ -127,9 +127,9 @@ nav h2 a:focus,
 .destaque {
   height: 88vh;
   background-image: url('../imagens/fundo-destaque.jpg');
-  /* background-position: center; */
+  /* background-position: center; problema com espaçamento em branco junto com position*/
   background-attachment: fixed;
-  /* background-repeat: no-repeat; */
+  /* background-repeat: no-repeat; da problema de espaçamento em branco junto com position */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -221,9 +221,9 @@ footer {
 
 .historia {
   background-image: url("../imagens/fundo-madeira.jpg");
-  /* background-position: center; */
+  /* background-position: center; ficou com espaço em branco junto com repeat*/
   background-attachment: fixed;
-  /* background-repeat: no-repeat; */
+  /* background-repeat: no-repeat; deu problema de espaço em branco */
   background-size: cover;
   display: flex;
   flex-direction: column;
