@@ -292,6 +292,17 @@ caption{
   padding-bottom: 0.5rem;
 }
 th, td {
-  border: solid 1px;
-  
+  border: solid 1px; 
+}
+
+th{
+background-color: var(--cor-escura);
+color: var(--cor-clara);
+border-color: var(--cor-escura);
+padding: 0.7rem;
+}
+
+td{
+padding: 0.5rem;
+color: var(--cor-texto);
 }
