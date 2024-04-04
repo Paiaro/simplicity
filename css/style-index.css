@@ -310,6 +310,14 @@ color: var(--cor-texto);
 tr:nth-child(odd){
     background-color: var(--cor-clara);
 }
-tr{
+
+td:nth-child(2){
   text-align: center;
 }
+th:last-child, td:last-child {
+  text-align: center;
+}
+/* inserindo um conteudo textual antes (before) de cada valor (td:last-child) */
+  td:last-child::before{
+    content: "R$ ";
+  }
