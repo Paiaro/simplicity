@@ -333,6 +333,27 @@ td:last-child {
 td:last-child::before {
   content: "R$ ";
 }
+
+/* style serviços */
+
+.servicosimg{
+
+text-align: center;
+
+}
+.servicosimg img{
+width: 180px;
+border-radius: 50%;
+transform: scale(0.8);
+filter: brightness(120%) blur(1px);
+transition: 0.5s;
+}
+.servicosimg img:hover{
+transform: scale(1);
+filter: none;
+border-radius: 10%;
+
+}
 /* @media sempre no final do codigo */
 
 @media screen and (min-width: 570px) {
@@ -363,5 +384,4 @@ td:last-child::before {
     max-width: 1000px;
   }
 }
-  
-  
+
