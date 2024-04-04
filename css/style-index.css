@@ -43,6 +43,7 @@ header{
   position: sticky;
   top: 0;
   background-color: var(--cor-clara);
+  z-index: 150;
 }
 
 body {
