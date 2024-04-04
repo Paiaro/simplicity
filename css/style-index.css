@@ -32,13 +32,17 @@ a {
   text-decoration: none;
 
 }
-
-header {
+/* limitador da div contida no header */
+header .limitador {
   height: 12vh;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  /* margin-left: 0.5rem; */
+  align-items: center;  
+}
+header{
+  position: sticky;
+  top: 0;
+  background-color: var(--cor-clara);
 }
 
 body {
@@ -228,6 +232,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
 }
 
 .historia h2 {
