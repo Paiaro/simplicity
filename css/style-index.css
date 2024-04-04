@@ -43,6 +43,7 @@ header{
   position: sticky;
   top: 0;
   background-color: var(--cor-clara);
+  /* mexe no eixo Z colocando pra frente ou pra tras*/
   z-index: 150;
 }
 
