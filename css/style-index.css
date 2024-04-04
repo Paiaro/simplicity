@@ -278,46 +278,85 @@ footer {
   margin-bottom: 1rem;
 }
 
-table{
-border: solid 2px;
-width: 80%;
-margin: auto;
-max-width: 600px;
-/* tirando brecha das bordas de cada celula */
-border-collapse: collapse;
+table {
+  border: solid 2px;
+  width: 80%;
+  margin: auto;
+  max-width: 600px;
+  /* tirando brecha das bordas de cada celula */
+  border-collapse: collapse;
 }
-caption{
+
+caption {
   text-transform: uppercase;
   font-size: 1.8rem;
   padding-bottom: 0.5rem;
 }
-th, td {
-  border: solid 1px; 
+
+th,
+td {
+  border: solid 1px;
 }
 
-th{
-background-color: var(--cor-escura);
-color: var(--cor-clara);
-border-color: var(--cor-escura);
-padding: 0.7rem;
+th {
+  background-color: var(--cor-escura);
+  color: var(--cor-clara);
+  border-color: var(--cor-escura);
+  padding: 0.7rem;
 }
 
-td{
-padding: 0.5rem;
-color: var(--cor-texto);
+td {
+  padding: 0.5rem;
+  color: var(--cor-texto);
 
 }
-tr:nth-child(odd){
-    background-color: var(--cor-clara);
+
+tr:nth-child(odd) {
+  background-color: var(--cor-clara);
 }
 
-td:nth-child(2){
+td:nth-child(2) {
   text-align: center;
 }
-th:last-child, td:last-child {
+
+th:last-child,
+td:last-child {
   text-align: center;
 }
+
 /* inserindo um conteudo textual antes (before) de cada valor (td:last-child) */
-  td:last-child::before{
-    content: "R$ ";
+td:last-child::before {
+  content: "R$ ";
+}
+
+@media screen and (min-width: 570px) {
+  nav h2 {
+    display: none;
   }
+  
+  nav {
+    width: 60%;
+  }
+  .lista-menu{
+    display: flex;
+  }
+  .lista-menu li {
+
+    width: 100%;
+  }
+  article figure img {
+    max-height: 150px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  body {
+    font-size: 18px;
+  }
+  .limitador{
+    max-width: 1000px;
+  }
+}
+  
+  
