@@ -348,7 +348,6 @@ td:last-child::before {
     max-height: 150px;
   }
 }
-
 @media screen and (min-width: 1000px) {
 
   body {
