@@ -345,13 +345,13 @@ td:last-child::before {
 
     width: 100%;
   }
-  article figure img {
+  .front-end img {
     max-height: 150px;
   }
 }
 @media screen and (min-width: 1000px) {
 
-  body {
+  html {
     font-size: 18px;
   }
   .limitador{
