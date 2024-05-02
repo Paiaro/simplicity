@@ -425,6 +425,16 @@ form div *:not(label) {
     width: 70%;
 
 }
+button{
+
+    background-color: var(--cor-escura);
+    color: var(--cor-clara);
+    border: none;
+    font-weight: bold;
+    padding: 1rem 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 @media screen and (min-width: 570px) {
     nav h2 {
