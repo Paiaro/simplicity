@@ -24,6 +24,7 @@ mensagem.style.color = "red";
 return;
 
 }
+//Guardar o valor do cep digitado/informado
 let cepInformado = campoCep.value;
 console.log(cepInformado);
 });
