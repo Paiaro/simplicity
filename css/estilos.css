@@ -435,7 +435,12 @@ button{
     border-radius: 4px;
     cursor: pointer;
 }
+button:hover, button:focus{
 
+background-color: var(--cor-clara);
+color: var(--cor-escura);
+box-shadow: var(--cor-intermediaria) 0 0 2px;
+}
 @media screen and (min-width: 570px) {
     nav h2 {
         display: none;
