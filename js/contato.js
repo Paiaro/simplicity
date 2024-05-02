@@ -9,3 +9,6 @@ const campoCidade = formulario.querySelector("#cidade");
 const campoEstado = formulario.querySelector("#estado");
 const botaoBuscar = formulario.querySelector("#buscar");
 const mensagem = formulario.querySelector("#status");
+
+// detectando quando o botão de buscar CEP é acionado
+
