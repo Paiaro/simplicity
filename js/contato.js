@@ -11,7 +11,7 @@ const botaoBuscar = formulario.querySelector("#buscar");
 const mensagemStatus = formulario.querySelector("#status");
 // detectando quando o botão de buscar CEP é acionado
 
-botaoBuscar.addEventListener("click", function (event) {
+botaoBuscar.addEventListener("click",async function (event) {
     // preventDefault anula o comportamento de redicionamento/recarregamento da pagina. Sempre acontece ao trabalhar com <a> e <form>.
     event.preventDefault();
     // verificando se o cep nao tem 8 digitos
@@ -31,9 +31,28 @@ botaoBuscar.addEventListener("click", function (event) {
     // Técnica de comunicação (Transmissão, recebimento) de dados que permite o processamento em conjunto com APIs (ou web services)
 
     //Etapa 1: preparar a URL da API com o CEP informado
+    let url = `https://viacep.com.br/ws/${cepInformado}/json/`;
+
     //Etapa 2: acessao a API (com URL) e aguardar o retorno dela
+   const resposta = await fetch(url);
+
     //Etapa 3: extrair os dados da resposta da API em formato JSON
-    //Etapa 4: lidar com os dados (em caso de erro e de sucesso)
+   const dados = await resposta.json();
+   console.log(dados);
+    
+   //Etapa 4: lidar com os dados (em caso de erro e de sucesso)
+// se existir a string "erro" no objeto dados
+   if ("erro" in dados) {
+    mensagemStatus.textContent = "CEP inexistente!";
+    mensagemStatus.style.color = "red";
+    
+} else {
+    mensagemStatus.textContent = "CEP encontrado!";
+    mensagemStatus.style.color = "blue";
+}
+
+
+
 });
 
 
