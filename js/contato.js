@@ -15,5 +15,12 @@ const mensagem = formulario.querySelector("#status");
 botaoBuscar.addEventListener("click", function (event) {
     // preventDefault anula o comportamento de redicionamento/recarregamento da pagina. Sempre acontece ao trabalhar com <a> e <form>.
     event.preventDefault();
+// verificando se o cep nao tem 8 digitos
+    if(campoCep.value.length !== 8 ){
+console.log("não tem 8 digitos!");
 
+}else{
+
+console.log("tem 8 digitos!");
+}
 });
