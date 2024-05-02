@@ -8,7 +8,7 @@ const campoBairro = formulario.querySelector("#bairro");
 const campoCidade = formulario.querySelector("#cidade");
 const campoEstado = formulario.querySelector("#estado");
 const botaoBuscar = formulario.querySelector("#buscar");
-const mensagem = formulario.querySelector("#status");
+const mensagemStatus = formulario.querySelector("#status");
 // detectando quando o botão de buscar CEP é acionado
 
 botaoBuscar.addEventListener("click", function (event) {
@@ -18,8 +18,8 @@ botaoBuscar.addEventListener("click", function (event) {
     if(campoCep.value.length !== 8 ){
 // console.log("não tem 8 digitos!");
 
-mensagem.textContent = "Digite um CEP válido!";
-mensagem.style.color = "red";
+mensagemStatus.textContent = "Digite um CEP válido!";
+mensagemStatus.style.color = "red";
 // pare completamente a execução.
 return;
 
