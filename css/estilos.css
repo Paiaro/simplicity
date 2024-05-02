@@ -439,6 +439,7 @@ button:hover, button:focus{
 background-color: var(--cor-clara);
 color: var(--cor-escura);
 box-shadow: var(--cor-intermediaria) 0 0 2px;
+
 }
 #cep{
     width: 60%;
@@ -447,6 +448,12 @@ box-shadow: var(--cor-intermediaria) 0 0 2px;
     width: 39%;
     padding: 12px;
 }
+/* é um tipo de borda que parece quando o campo ganha foco*/
+input:focus, select:focus, textarea:focus{
+
+    outline-color: palevioletred;
+}
+
 @media screen and (min-width: 570px) {
     nav h2 {
         display: none;
