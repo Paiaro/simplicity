@@ -426,7 +426,8 @@ form div *:not(label) {
     width: 70%;
 
 }
-button{
+
+button {
 
     background-color: var(--cor-escura);
     color: var(--cor-clara);
@@ -436,21 +437,28 @@ button{
     border-radius: 4px;
     cursor: pointer;
 }
-button:hover, button:focus{
-background-color: var(--cor-clara);
-color: var(--cor-escura);
-box-shadow: var(--cor-intermediaria) 0 0 2px;
+
+button:hover,
+button:focus {
+    background-color: var(--cor-clara);
+    color: var(--cor-escura);
+    box-shadow: var(--cor-intermediaria) 0 0 2px;
 
 }
-#cep{
+
+#cep {
     width: 60%;
 }
-#buscar{
+
+#buscar {
     width: 39%;
     padding: 12px;
 }
+
 /* é um tipo de borda que parece quando o campo ganha foco*/
-input:focus, select:focus, textarea:focus{
+input:focus,
+select:focus,
+textarea:focus {
 
     outline-color: palevioletred;
 }
