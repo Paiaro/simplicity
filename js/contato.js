@@ -12,3 +12,8 @@ const mensagem = formulario.querySelector("#status");
 
 // detectando quando o botão de buscar CEP é acionado
 
+botaoBuscar.addEventListener("click",function(event){
+// preventDefault anula o comportamento de redicionamento/recarregamento da pagina. Sempre acontece ao trabalhar com <a> e <form>.
+event.preventDefault();
+
+});
