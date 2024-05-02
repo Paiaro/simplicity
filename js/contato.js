@@ -26,5 +26,22 @@ return;
 }
 //Guardar o valor do cep digitado/informado
 let cepInformado = campoCep.value;
-console.log(cepInformado);
+
+// AJAX - Asyncronous JavaScript And XML (JavaScript e XML)
+// Técnica de comunicação (Transmissão, recebimento) de dados que permite o processamento em conjunto com APIs (ou web services)
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
