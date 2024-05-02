@@ -454,6 +454,9 @@ button:focus {
     width: 39%;
     padding: 12px;
 }
+.campos-restantes{
+    display: none;
+}
 
 /* é um tipo de borda que parece quando o campo ganha foco*/
 input:focus,
