@@ -110,7 +110,7 @@ var form = document.getElementById("formulario");
         status.innerHTML = "Oops! ocorreu um erro, Você é burro !"
       });
     }
-    formulario.addEventListener("submit", handleSubmit)
+    formulario.addEventListener("submit", handleSubmit);
 
 
 
