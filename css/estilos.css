@@ -419,6 +419,13 @@ button:hover, button:focus {
 }
  
 .campos-restantes {display: none;}
+
+#status-do-envio {
+
+    text-align: center;
+    font-variant-east-asian: full-width;
+    padding: 1rem;
+}
  
 @media screen and (min-width: 570px) {
     nav h2 {
