@@ -9,13 +9,22 @@ const campoCidade = formulario.querySelector("#cidade");
 const campoEstado = formulario.querySelector("#estado");
 const botaoBuscar = formulario.querySelector("#buscar");
 const mensagemStatus = formulario.querySelector("#status");
-// detectando quando o botão de buscar CEP é acionado
+const campoTelefone = formulario.querySelector("#telefone");
 
+// seleção dos campos (via jquery)
+// ativação das mascaras (via jquery mask)
+
+$(campoCep).mask("00000-000");   //01234-567
+$(campoTelefone).mask("(00) 0000-0000"); //(11) 2135-0300
+
+
+
+// detectando quando o botão de buscar CEP é acionado
 botaoBuscar.addEventListener("click", async function (event) {
     // preventDefault anula o comportamento de redicionamento/recarregamento da pagina. Sempre acontece ao trabalhar com <a> e <form>.
     event.preventDefault();
     // verificando se o cep nao tem 8 digitos
-    if (campoCep.value.length !== 8) {
+    if (campoCep.value.length !== 9) {
         // console.log("não tem 8 digitos!");
 
         mensagemStatus.textContent = "Digite um CEP válido!";
