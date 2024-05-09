@@ -95,6 +95,7 @@ var form = document.getElementById("formulario");
       }).then(response => {
         if (response.ok) {
           status.innerHTML = "Obrigado!!!";
+          status.style.color = "#9B4444"
           formulario.reset()
         } else {
           response.json().then(data => {
