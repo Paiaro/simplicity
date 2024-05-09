@@ -23,7 +23,7 @@ $(campoTelefone).mask("(00) 0000-0000"); //(11) 2135-0300
 botaoBuscar.addEventListener("click", async function (event) {
     // preventDefault anula o comportamento de redicionamento/recarregamento da pagina. Sempre acontece ao trabalhar com <a> e <form>.
     event.preventDefault();
-    // verificando se o cep nao tem 8 digitos
+    // verificando se o cep nao tem 9 digitos
     if (campoCep.value.length !== 9) {
         // console.log("não tem 8 digitos!");
 
