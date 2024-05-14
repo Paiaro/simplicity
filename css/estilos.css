@@ -133,7 +133,7 @@ nav h2 a:focus,
  
 .destaque {
     height: 88vh;
-    background-image: url(/imagens/fundo-destaque.jpg);
+    background-image: url(../imagens/fundo-destaque.jpg);
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
